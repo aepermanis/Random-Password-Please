@@ -37,9 +37,9 @@ function generatePassword() {
     newPass += special
   }
 
-  let len = prompt("How many characters do you want your password to be? (8 - 128)", Number);
+  let len = prompt("How many characters do you want your password to be? (8 - 128)");
   if(len <= 7 || len >= 129){
-    alert("You must chose between 8 and 128", Number);
+    alert("You must chose between 8 and 128");
   } else {
     for (let i = 0; i-1 < len; i++){
       int = RandomInt(newPass.length);
