@@ -42,7 +42,7 @@ function generatePassword() {
     newPass += special
   }
   //defines the length of the password
-  let len = prompt("How many characters do you want your password to be? (8 - 128)", Number);
+  let len = prompt("How many characters do you want your password to be? (8 - 128)");
   //for the length of the password creates a string of random characters from the selected options
   if(len <= 7 || len >= 129){
     alert("You must chose between 8 and 128");
